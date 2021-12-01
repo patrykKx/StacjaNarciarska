@@ -1,0 +1,22 @@
+#firstTr {
+    background-color: white;
+}
+
+tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+tr:nth-child(2n) {
+    background-color: #f8f9fa;
+}
+
+td {
+    max-height: 40px;
+    vertical-align: middle !important;
+    font-weight: bold !important;
+}
+
+th {
+    vertical-align: middle !important;
+    font-weight: normal !important;
+}

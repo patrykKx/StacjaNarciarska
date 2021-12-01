@@ -1,0 +1,35 @@
+#loginForm {
+   background-image: url(../images/loginPhoto.jpg);
+   min-height: 95vh;
+   max-height: 750px;
+   max-width: 1800px;
+   background-repeat: no-repeat;
+}
+
+#registerForm {
+   background-image: url(../images/registerPhoto.png);
+   background-repeat: no-repeat;
+   min-height: 95vh;
+}
+
+.registerBackground {
+    background-color: #fcfcfc;
+}
+
+#registerForm h2 {
+    font-weight: bolder;
+}
+
+.validationError {
+    font-size: 90%;
+}
+
+.loginError {
+    color: #660000;
+}
+
+@media screen and (max-width: 991px) {
+    #registerForm {
+        background-image: url(../images/registerPhotoWithOpacity2.png);
+    }
+}

@@ -1,0 +1,145 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#heading {
+    font-weight: bolder;
+}
+
+#quote {
+    font-family: 'Caveat', cursive;
+    font-size: 140%;
+}
+
+.firstBgColor {
+    background-color: #e9ecef;
+}
+
+#container {
+    padding-top: 80px;
+}
+
+#loginIncentive {
+    font-size: 160%;
+}
+
+#weatherData {
+    font-size: 120%;
+}
+
+#errorLoadingWeather {
+    font-weight: bolder;
+    color: #990000;
+}
+
+#monthAndYear {
+    font-size: 110%;
+}
+
+#dayDescription {
+    font-size: 120%;
+    min-height: 75px;
+}
+
+#calendarBody td button{
+    background-color: #d47a7a;
+}
+
+#myCalendar td {
+    padding: 1px !important;
+}
+
+thead tr {
+    background-color: #fffdd0 !important;
+}
+
+tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+tr:nth-child(2n) {
+    background-color: #f8f9fa;
+}
+
+#leftArrow:hover, #rightArrow:hover {
+    cursor: pointer;
+}
+
+button > img {
+    max-height: 25px;
+}
+
+#instructorTypeRadios input, #peopleTypeRadios input {
+    height: 20px;
+    width: 20px;
+}
+
+#instructorTypeRadios label {
+    font-size: 120%;
+}
+
+.messageHeader {
+    height: 10%;
+}
+
+.messagesField {
+    overflow-y: auto;
+    height: 75%;
+}
+
+.messageInput {
+    height: 15%;
+}
+
+.myMessage {
+    background-color: #e9aede;
+
+}
+
+.yourMessage {
+    background-color: #79bae1;
+
+}
+
+.inputSearch {
+    height: 30%;
+    overflow: hidden;
+}
+
+.recentlyPeople {
+    height: 70%;
+    overflow-y: auto;
+}
+
+.recentlyPeopleDIV {
+    background-color: #fafafa;
+    height: 70px;
+}
+
+.recentlyPeopleDIV:hover {
+    background-color: #e6e7f0 !important;
+    cursor: pointer;
+}
+
+#messagesCounterContainer {
+    max-width: 50px;
+}
+
+#userResult li:hover {
+    background-color: #ff9999 !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 632px) {
+    h2 {
+        font-size: 120%;
+    }
+    #linkStacja {
+        font-size: 80%;
+    }
+    #monthAndYear {
+        font-size: 80%;
+    }
+}
+
+
